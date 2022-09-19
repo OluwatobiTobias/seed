@@ -74,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "vision.wsgi.application"
 
 
-USER_AUTH_MODEL = "api_auth.Acc"
+AUTH_USER_MODEL = "api_auth.User"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
